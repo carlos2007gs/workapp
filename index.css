@@ -1,45 +1,57 @@
-@import "./css/button.css";
+@import './button.css';
+@import './find.css';
+@import './jobs.css';
+
 
 :root {
-    --green: #0CA900;
-    --black: #000000;
-    --white: #ffffff;
-    --gray: #adadad;
+  --green: #0CA900;
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #adadad;
 }
 
-/*conig*/
+/*cofig*/
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Roboto;
-}
-
-.wrapper {
-    max-width: 360px;
-   /* border: 1px solid red;*/
-    margin: auto;
-    height: 100%;
-    display: flex;
-    padding: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  box-sizing: border-box;
 }
 
 /*container*/
 .container {
-    background: var(--green);
-    height: 100vh;
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 360px;
+  height: 100%;
+  /* border: 1px solid red; */
 }
 
 .content {
-    /*border: 1px solid blue;*/
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 64px;
+  /* border: 1px solid blue; */
+  height: 100%;
+  display: flex;
 }
 
-.container h1 {
-    text-align: center;
-    color: var(--white);
-    font-weight: 500;
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  background-color: var(--green);
+  height: 100%;
+  width: 100%;
+  padding: 16px;
 }
+
+.home h1 {
+  text-align: center;
+  color: var(--white);
+  font-weight: 500;
+}
+  
+  

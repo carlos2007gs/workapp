@@ -1,0 +1,10 @@
+.job {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.jobs p {
+    font-size: 12px;
+    color: var(--gray);
+}
